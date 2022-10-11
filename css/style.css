@@ -1,6 +1,6 @@
 body {
-    font-family: Verdana;
-    background-color: seashell;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(254, 254, 233);
     opacity: 0.9;
     text-align: center;
 }
@@ -24,23 +24,19 @@ footer  {
 .navbar a {
     color: black;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
+}
+
+.nav-item a:hover {
+    color: rgb(254, 254, 233);
 }
 
 .col-3, .col-4 {
-    background-color: rgb(144, 238, 216);    
-}
-
-.col-4 {
-    border-color: rgb(144, 238, 216);
+    background-color: rgb(144, 238, 216);
 }
 
 .navbar-toggler-icon {
-    background-color: seashell;
-}
-
-a:hover { 
-    color: grey !important; 
+    background-color: rgb(237, 181, 233);
 }
 
 .container-fluid .overlay {
@@ -66,12 +62,42 @@ a:hover {
     max-width: 100%;
 }
 
-.bi:hover {
-    background-color: seashell;
+.dropdown-menu {
+    background-color: rgb(237, 181, 233);
+    width: 200px;
 }
 
-.btn:hover {
-    background-color:rgb(144, 238, 216);
+.modal-footer .btn {
+    background-color: rgb(237, 181, 233);
+}
+
+.modal {
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(144, 238, 216);
+    font-weight: bold;
+}
+
+.btn:link {
+    background-color: rgb(254, 254, 233);
+}
+
+.btn:hover { 
+    background-color: rgb(237, 181, 233); 
+}
+
+.btn:focus {
+    background-color: rgb(237, 181, 233); 
+}
+
+.btn:active {
+    background-color: rgb(237, 181, 233); 
+}
+
+.modal-dialog {
+    max-width: 47%;
 }
 
 @media only screen and (min-width: 992px) {

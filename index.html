@@ -34,12 +34,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#education">Education</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="images/Full Stack Resume.pdf">Resume</a>
-                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#projects" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
-                        <ul class="dropdown-menu dropdown-menu-dark text-center" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <ul class="dropdown-menu text-center" aria-labelledby="navbarDarkDropdownMenuLink">
                             <li><a class="dropdown-item-dark text-decoration-none" href="#projects">Projects</a></li>
                             <li><a class="dropdown-item-dark text-decoration-none" href="https://harrisweinblatt.github.io/TheTeaCozy/" target="_blank">Tea Cozy</a></li>
                             <li><a class="dropdown-item-dark text-decoration-none" href="https://github.com/HarrisWeinblatt/FizzBuzz" target="_blank">FizzBuzz</a></li>
@@ -55,7 +52,30 @@
             </div>
         </div>
     </nav>
-    
+
+    <div class="container-fluid pt-3">   
+        
+        <!--Button Modal-->
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Click for Resume</button>
+                  
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn"><a href="images/resumeformodal.png" target="_blank"></a>Resume.pdf</button>
+                    </div>
+                    <div class="modal-body">
+                            <div class="modal-content">
+                            <iframe id="pptframe" width="100%" height="550" style="border: none;"  src="images/resumeformodal.png" ></iframe>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
     <div class="container-fluid mt-3 mb-3">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-interval="100">
             <div class="carousel-inner banner_img_size">
@@ -69,34 +89,6 @@
                     <img src="images/banner-pic3.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="overlay" id="mission">
-
-
-                  <!--Button Modal-->
-                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Click for Resume
-                </button>
-                  
-                  <!-- Modal -->
-                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="modal-content nobg">
-                                <iframe id="pptframe" width="100%" height="500" style="border: none;"  src="images/Full stack web devleoperdesigner.jpg" ></iframe>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-
-
                     <h1 class="container-fluid m-3"><strong>Harris Scott Weinblatt</strong></h1>
                     <h4 class="container-fluid m-3"><strong>Full Stack<br>Web Developer<br>and Designer</h4>
                 </div>
@@ -105,36 +97,30 @@
     </div>
 
     
+    
     <div class="row mt-4 ms-1 justify-content-around">
         <div class="col-3 rounded-4 border border-5 border-secondary">
             <div class="text-center" id="education">
                 <h3 class="text-black fw-bolder mt-3 mb-1">Education</h3>
  
-                <h5 class="text-black">Generation USA</h5>
+                <h5 class="text-black mt-3">Generation USA</h5>
                 <h6>Junior Full Stack Java Developer</h6>
                 <h5 class="text-black">University of Illinois</h5>
                 <h6>Bachelor of Arts - History</h6>
                 <h6></h6>          
             </div>
         </div>
-        <div class="col-4 rounded-4 border border-5 border-secondary">
+        <div class="col-3 rounded-4 border border-5 border-secondary">
             <div class="text-center" id="aboutme">
                 <h3 class="text-black fw-bolder mt-3 mb-1">About Me</h3>
                 <h6 class="text-black p-1">After 15 years in the hospitality industry and 10 years of self taught experience with Web Development and Design, I decided I wanted to change my career. I am now certified and proficient with experience in full stack web developing and design working with many different coding languages as well as within a team setting.</h6>
-                    
-                
-
-
-
             </div>
         </div>
-
- 
         <div class="col-3 rounded-4 border border-5 border-secondary">
             <div class="text-center" id="skills">
                 <h3 class="text-black fw-bolder mt-3 mb-1">Skills</h3>
-                <h6 class="text-black">JavaScript, Java, SQL
-                HTML5, CSS, Bootstrap, GitHub, Replit, Git, VS Code, Communication, Teamwork, Leadership, Trainer, Future Orientation, Growth Mindset, Perseverance, Pro-activeness, Personal Responsibility, Writing and Desing, Microsoft Office, Juggling and Manipulating Fire</h6>              
+                <h6 class="text-black mt-3">JavaScript, Java, SQL
+                HTML5, CSS, Bootstrap, GitHub, Git, VS Code, Communication, Teamwork, Leadership, Trainer, Future Orientation, Growth Mindset, Perseverance, Pro-activeness, Personal Responsibility, Writing, Design, Microsoft Office, Juggling, Instructor, Manipulating and Juggling Fire</h6>              
             </div>
         </div>
     </div>
@@ -234,8 +220,8 @@
             <a href="https://www.linkedin.com/in/harris-weinblatt-490099245/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi-linkedin" viewBox="0 0 16 16">
                 <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
               </svg><i class="fs-1 text-white mt-4 pe-3"></i></a>
-            <a href="mailto:harrisscottweinblatt@gmail.com" target="_blank"><i class="fs-1 text-white mt-4"></i><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi-inbox" viewBox="0 0 16 16">
-                <path d="M4.98 4a.5.5 0 0 0-.39.188L1.54 8H6a.5.5 0 0 1 .5.5 1.5 1.5 0 1 0 3 0A.5.5 0 0 1 10 8h4.46l-3.05-3.812A.5.5 0 0 0 11.02 4H4.98zm9.954 5H10.45a2.5 2.5 0 0 1-4.9 0H1.066l.32 2.562a.5.5 0 0 0 .497.438h12.234a.5.5 0 0 0 .496-.438L14.933 9zM3.809 3.563A1.5 1.5 0 0 1 4.981 3h6.038a1.5 1.5 0 0 1 1.172.563l3.7 4.625a.5.5 0 0 1 .105.374l-.39 3.124A1.5 1.5 0 0 1 14.117 13H1.883a1.5 1.5 0 0 1-1.489-1.314l-.39-3.124a.5.5 0 0 1 .106-.374l3.7-4.625z"/>
+            <a href="mailto:harrisscottweinblatt@gmail.com" target="_blank"><i class="fs-1 text-white mt-4"></i><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi-envelope" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
               </svg></a>
         </div>
         <div>

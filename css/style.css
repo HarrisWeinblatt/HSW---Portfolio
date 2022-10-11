@@ -81,7 +81,7 @@ footer  {
 }
 
 .btn:link {
-    background-color: rgb(254, 254, 233);
+    background-color: rgb(144, 238, 216);
 }
 
 .btn:hover { 
@@ -89,11 +89,11 @@ footer  {
 }
 
 .btn:focus {
-    background-color: rgb(237, 181, 233); 
+    background-color: rgb(144, 238, 216);
 }
 
 .btn:active {
-    background-color: rgb(237, 181, 233); 
+    background-color: rgb(144, 238, 216);
 }
 
 .modal-dialog {

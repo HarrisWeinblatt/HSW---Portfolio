@@ -36,7 +36,14 @@ footer  {
 }
 
 .navbar-toggler-icon {
-    background-color: rgb(237, 181, 233);
+    background-color: rgb(144, 238, 216);
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 .container-fluid .overlay {

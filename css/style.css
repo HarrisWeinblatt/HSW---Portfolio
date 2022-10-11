@@ -72,6 +72,8 @@ footer  {
 .dropdown-menu {
     background-color: rgb(237, 181, 233);
     width: 200px;
+    float: right;
+    position: fixed;
 }
 
 .modal-footer .btn {
@@ -104,8 +106,20 @@ footer  {
 }
 
 .modal-dialog {
-    max-width: 47%;
+    min-width: auto;
 }
+
+.modal-body {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.modal-dialog {
+    display: inline-flex;
+    width: 50%;
+    height: 50%;
+}
+
 
 @media only screen and (min-width: 992px) {
     .navbar {

@@ -33,6 +33,9 @@ footer  {
 
 .col-3, .col-4 {
     background-color: rgb(144, 238, 216);
+    max-height: 300px;
+    min-width: 300px;
+    margin: 10px;
 }
 
 .navbar-toggler-icon {
@@ -104,22 +107,6 @@ footer  {
 .btn:active {
     background-color: rgb(144, 238, 216);
 }
-
-.modal-dialog {
-    min-width: auto;
-}
-
-.modal-body {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.modal-dialog {
-    display: inline-flex;
-    width: 50%;
-    height: 50%;
-}
-
 
 @media only screen and (min-width: 992px) {
     .navbar {

@@ -65,7 +65,8 @@ footer  {
 .container-fluid .carousel-item img {
     display: block;
     max-width:100%;
-    max-height: 600px;
+    height: auto;
+
  }
 
 .container-fluid .row img {

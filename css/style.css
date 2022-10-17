@@ -87,6 +87,10 @@ footer  {
     text-align: center;
 }
 
+.modal-dialog {
+    min-width: 60%;
+}
+
 .btn {
     background-color: rgb(144, 238, 216);
     font-weight: bold;

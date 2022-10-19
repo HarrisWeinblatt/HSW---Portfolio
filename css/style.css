@@ -94,6 +94,8 @@ footer  {
 .btn {
     background-color: rgb(144, 238, 216);
     font-weight: bold;
+    border: 2px solid black;
+
 }
 
 .btn:link {

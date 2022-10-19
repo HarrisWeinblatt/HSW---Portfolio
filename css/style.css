@@ -24,7 +24,7 @@ footer  {
 .navbar a {
     color: black;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .nav-item a:hover {
@@ -45,8 +45,8 @@ footer  {
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-    outline: none;
     box-shadow: none;
+    outline: none;
 }
 
 .container-fluid .overlay {

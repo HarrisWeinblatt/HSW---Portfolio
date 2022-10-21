@@ -117,6 +117,18 @@ footer  {
     background-color: rgb(144, 238, 216);
 }
 
+  #float-circle{
+    width: 100px;
+    height: 100px;
+    background: rgb(144, 238, 216);
+    border-radius: 100px;
+    bottom: 50px;
+    left: 50%;
+    position: absolute;
+    transition-property: bottom;
+    transition-duration: 2s;
+}
+
 @media only screen and (min-width: 992px) {
     .navbar {
       flex-direction: column;

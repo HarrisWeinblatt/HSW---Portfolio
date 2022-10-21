@@ -117,13 +117,20 @@ footer  {
     background-color: rgb(144, 238, 216);
 }
 
-  #float-circle{
+#container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#float-circle{
     width: 100px;
     height: 100px;
     background: rgb(144, 238, 216);
     border-radius: 100px;
     bottom: 50px;
-    left: 50%;
+    margin-left: 20px;
     position: absolute;
     transition-property: bottom;
     transition-duration: 2s;

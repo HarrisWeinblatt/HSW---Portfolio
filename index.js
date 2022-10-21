@@ -3,7 +3,7 @@
 let ball = document.getElementById('float-circle');
 
 function up() {
-  ball.style.bottom = '500px';
+  ball.style.bottom = '350px';
 }
 function down() {
   ball.style.bottom = '50px';

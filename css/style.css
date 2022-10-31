@@ -117,6 +117,21 @@ footer  {
     background-color: rgb(144, 238, 216);
 }
 
+.bi-github:hover {
+    background-color:  rgb(254, 254, 233);
+    border-radius: 50%;
+}
+
+.bi-envelope:hover {
+    background-color:  rgb(254, 254, 233);
+    
+}
+
+.bi-linkedin:hover {
+    background-color:  rgb(254, 254, 233);
+
+}
+
 @media only screen and (min-width: 992px) {
     .navbar {
       flex-direction: column;

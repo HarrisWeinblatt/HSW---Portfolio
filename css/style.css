@@ -82,16 +82,16 @@ footer  {
     position: fixed;
 }
 
-.modal-footer .btn {
-    background-color: rgb(237, 181, 233);
-}
-
 .modal {
     text-align: center;
 }
 
 .modal-dialog {
     min-width: 60%;
+}
+
+.modal-header {
+    justify-content: end;
 }
 
 .btn {

@@ -22,47 +22,8 @@
 <body>
     <nav class="navbar navbar-expand-lg p-1">
         <div class="container-fluid">
- 
-          <div class="date">
-            <script language="JavaScript">
-            <!--
-            var current_date = new Date ( );
-            
-            var month_names = new Array ( );
-            month_names[month_names.length] = "January";
-            month_names[month_names.length] = "February";
-            month_names[month_names.length] = "March";
-            month_names[month_names.length] = "April";
-            month_names[month_names.length] = "May";
-            month_names[month_names.length] = "June";
-            month_names[month_names.length] = "July";
-            month_names[month_names.length] = "August";
-            month_names[month_names.length] = "September";
-            month_names[month_names.length] = "October";
-            month_names[month_names.length] = "November";
-            month_names[month_names.length] = "December";
-            
-            var day_names = new Array ( );
-            day_names[day_names.length] = "Sunday";
-            day_names[day_names.length] = "Monday";
-            day_names[day_names.length] = "Tuesday";
-            day_names[day_names.length] = "Wednesday";
-            day_names[day_names.length] = "Thursday";
-            day_names[day_names.length] = "Friday";
-            day_names[day_names.length] = "Saturday";
-            
-            document.write ( day_names[current_date.getDay()] );
-            document.write ( ", " );
-            document.write ( month_names[current_date.getMonth()] );
-            document.write ( " " + current_date.getDate() );
-            document.write ( ", " );
-            document.write ( " " );
-            document.write ( " " + current_date.getFullYear() );
-            // -->
-            </script>
-            <div id="MyClockDisplay" class="clock" onload="showTime()">
-            </div>
-          </div>
+          <img src="images/logo.jpg" style="max-height: 60px;">
+          <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -108,7 +69,44 @@
         </div>
     </nav>
 
-
+    <div class="date">
+      <script language="JavaScript">
+      <!--
+      var current_date = new Date ( );
+      
+      var month_names = new Array ( );
+      month_names[month_names.length] = "January";
+      month_names[month_names.length] = "February";
+      month_names[month_names.length] = "March";
+      month_names[month_names.length] = "April";
+      month_names[month_names.length] = "May";
+      month_names[month_names.length] = "June";
+      month_names[month_names.length] = "July";
+      month_names[month_names.length] = "August";
+      month_names[month_names.length] = "September";
+      month_names[month_names.length] = "October";
+      month_names[month_names.length] = "November";
+      month_names[month_names.length] = "December";
+      
+      var day_names = new Array ( );
+      day_names[day_names.length] = "Sunday";
+      day_names[day_names.length] = "Monday";
+      day_names[day_names.length] = "Tuesday";
+      day_names[day_names.length] = "Wednesday";
+      day_names[day_names.length] = "Thursday";
+      day_names[day_names.length] = "Friday";
+      day_names[day_names.length] = "Saturday";
+      
+      document.write ( day_names[current_date.getDay()] );
+      document.write ( ", " );
+      document.write ( month_names[current_date.getMonth()] );
+      document.write ( " " + current_date.getDate() );
+      document.write ( ", " );
+      document.write ( " " );
+      document.write ( " " + current_date.getFullYear() );
+      // -->
+      </script>
+    </div>
 
     <div class="container-fluid mt-3 mb-3">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-interval="100">
@@ -128,7 +126,7 @@
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
 
     <div class="outer-container">
       <p id="quotes"></p>

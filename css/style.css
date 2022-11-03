@@ -166,10 +166,15 @@ footer {
 }
 
 /* Clock counter */
-.clock, .date {
+.clock {
     padding-left: 10px;
     font-size: 15px;
-    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+/*Date*/
+.date {
+    font-size: 15px;
     font-weight: bold;
 }
 

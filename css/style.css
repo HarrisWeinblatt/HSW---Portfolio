@@ -12,40 +12,8 @@ body footer {
     margin: 0;
 }
 
-footer  {
+footer {
     background-color: rgb(144, 238, 216);
-}
-
-.navbar {
-    background-color: rgb(144, 238, 216);
-}
-
-.navbar a {
-    color: black;
-    font-weight: bold;
-    font-size: 14px;
-}
-
-.nav-item a:hover {
-    color: rgb(254, 254, 233);
-}
-
-.col-3, .col-4 {
-    background-color: rgb(144, 238, 216);
-    max-height: 300px;
-    min-width: 300px;
-    margin: 10px;
-}
-
-.navbar-toggler-icon {
-    background-color: rgb(144, 238, 216);
-}
-
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
-    box-shadow: none;
-    outline: none;
 }
 
 .container-fluid .overlay {
@@ -70,6 +38,40 @@ footer  {
     max-width: 100%;
 }
 
+/*About Me, Education, Skills*/
+.col-3, .col-4 {
+    background-color: rgb(144, 238, 216);
+    max-height: 300px;
+    min-width: 300px;
+    margin: 10px;
+}
+
+/*NavBar and Hamburger Menu*/
+.navbar {
+    background-color: rgb(144, 238, 216);
+}
+
+.navbar a {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-item a:hover {
+    color: rgb(254, 254, 233);
+}
+
+.navbar-toggler-icon {
+    background-color: rgb(144, 238, 216);
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    box-shadow: none;
+    outline: none;
+}
+
 .navbar img {
     border: 2px solid rgb(237, 181, 233);
     border-radius: 40%;
@@ -82,6 +84,7 @@ footer  {
     position: fixed;
 }
 
+/*Resume popup*/
 .modal {
     text-align: center;
 }
@@ -94,11 +97,11 @@ footer  {
     justify-content: end;
 }
 
+/*Buttons on page*/
 .btn {
     background-color: rgb(144, 238, 216);
     font-weight: bold;
     border: 2px solid black;
-
 }
 
 .btn:link {
@@ -117,14 +120,10 @@ footer  {
     background-color: rgb(144, 238, 216);
 }
 
+/*Social Media icons in footer*/
 .bi-github:hover {
     background-color:  rgb(254, 254, 233);
     border-radius: 50%;
-}
-
-.bi-envelope:hover {
-    background-color:  rgb(254, 254, 233);
-    
 }
 
 .bi-linkedin:hover {
@@ -132,6 +131,7 @@ footer  {
 
 }
 
+/*Arrow on the right side of page that takes user back to top of page*/
 #back2Top {
     width: 40px;
     line-height: 40px;
@@ -158,11 +158,13 @@ footer  {
     color: #000;
 }
 
+/* Clock counter */
 .clock {
     padding-left: 10px;
     font-size: 25px;
     font-family: Orbitron;
     letter-spacing: 1px;
+    font-weight: bold;
 }
 
 @media only screen and (min-width: 992px) {

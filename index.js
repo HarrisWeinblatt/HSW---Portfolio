@@ -57,7 +57,7 @@ const generateQuote = function() {
       author: "-Matt Mullenweg, Social Media Entrepreneur-"
   },
   {
-      quote: "Technology is anything that wasn’t around when you were born",
+      quote: "Technology is anything that wasn’t around when you were born.",
       author: "-Alan Kay, Computer Scientist-"
   },
   {
@@ -89,7 +89,7 @@ const generateQuote = function() {
       author: "-Lawrence Clark Powell, Librarian-"
   },
   {
-      quote: "You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete",
+      quote: "You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.",
       author: "-Buckminster Fuller, Author-"
   },
   {
@@ -115,6 +115,42 @@ const generateQuote = function() {
   {
       quote: "It's not that we use Technology, we live Technology.",
       author: "-Godfrey Reggio, American Director-"
+  },
+  {
+      quote: "Nothing is impossible. The word itself says 'I'm possible'",
+      author: "-Audrey Hepburn, Actress and Humanitarian-"
+  },
+  {
+      quote: "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+      author: "-Winston Churchill, Prime Minister England-"
+  },
+  {
+      quote: "You are never too old to set another goal or to dream a new dream.",
+      author: "-Malala Yousafzai, Education Activist-"
+  },
+  {
+      quote: "For me, becoming isn’t about arriving somewhere or achieving a certain aim. I see it instead as forward motion, a means of evolving, a way to reach continuously toward a better self. The journey doesn't end.",
+      author: "-Michelle Obama, First Lady-"
+  },
+  {
+      quote: "Do not allow people to dim your shine because they are blinded. Tell them to put some sunglasses on.",
+      author: "-Lady Gaga, Entertainer and Icon-"
+  },
+  {
+      quote: "I am experienced enough to do this. I am knowledgeable enough to do this. I am prepared enough to do this. I am mature enough to do this. I am brave enough to do this.",
+      author: "-Alexandria Ocasio-Cortex , New York State Representative-"
+  },
+  {
+      quote: "No matter what people tell you, words and ideas can change the world..",
+      author: "-Robin Williams, Entertainer and Icon-"
+  },
+  {
+      quote: "I'm not going to continue knocking that old door that doesn't open for me. I'm going to create my own door and walk through that.",
+      author: "-Ava DuVernay, Filmmaker-"
+  },
+  {
+      quote: "Just don't give up trying to do what you really want to do. Where there is love and inspiration, I don't think you can go wrong.",
+      author: "-Ella Fitzgerald, Entertainer and Icon-"
   }
 ];
 

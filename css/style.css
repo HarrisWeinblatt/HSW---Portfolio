@@ -42,7 +42,19 @@ footer {
 .outer-container {
     max-width: 90%;
     display: inline-block;
-    position: relative;
+    height: 100px;
+}
+
+#quotes {
+    font-size: 16px;
+}
+
+#author {
+    font-size: 12px;
+}
+
+#generate {
+    font-size: 12px;
 }
 
 /*About Me, Education, Skills*/

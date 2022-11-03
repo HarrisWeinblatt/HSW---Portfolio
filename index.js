@@ -130,7 +130,7 @@ const generateQuote = function() {
   },
   {
       quote: "For me, becoming isn’t about arriving somewhere or achieving a certain aim. I see it instead as forward motion, a means of evolving, a way to reach continuously toward a better self. The journey doesn't end.",
-      author: "-Michelle Obama, First Lady-"
+      author: "-Michelle Obama, Former First Lady-"
   },
   {
       quote: "Do not allow people to dim your shine because they are blinded. Tell them to put some sunglasses on.",
@@ -151,7 +151,24 @@ const generateQuote = function() {
   {
       quote: "Just don't give up trying to do what you really want to do. Where there is love and inspiration, I don't think you can go wrong.",
       author: "-Ella Fitzgerald, Entertainer and Icon-"
+  },
+  {
+      quote: "Everyone has inside of him a piece of good news. The good news is that you don't know how great you can be! How much you can love! What you can accomplish! And what your potential is!",
+      author: "-Anne Frank, Author-"
+  },
+  {
+      quote: "You gain strength, courage, and confidence by every experience in which you really stop to look fear in the face. You are able to say to yourself, 'I lived through this horror. I can take the next thing that comes along.' You must do the thing you think you cannot do.",
+      author: "-Elenor Roosevelt, Former First Lady-"
+  },
+  {
+      quote: "I tell myself, 'You've been through so much, you've endured so much, time will allow me to heal, and soon this will be just another memory that made me the strong woman, athlete, and mother I am today.",
+      author: "-Sernea Williams, Greatest Tennis Player of All-Time-"
+  },
+  {
+      quote: "I have learned over the years that when one's mind is made up, this diminishes fear; knowing what must be done does away with fear.",
+      author: "-Rosa Parks, Civil Rights Activist-"
   }
+
 ];
 
   let arrayIndex = Math.floor(Math.random() * quotes.length);

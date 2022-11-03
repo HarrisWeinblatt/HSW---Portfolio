@@ -128,6 +128,9 @@ window.onload = function() {
   document.getElementById("generate").addEventListener('click', generateQuote);
 }
 
+// date counter
+
+
 
 // opens up my resume in a modal box
 

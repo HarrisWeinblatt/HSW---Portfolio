@@ -260,10 +260,6 @@ const generateQuote = function() {
   {
       quote: "I have learned over the years that when one's mind is made up, this diminishes fear; knowing what must be done does away with fear.",
       author: "-Rosa Parks, Civil Rights Activist-"
-  },
-  {
-      quote: "There are days where I get discouraged, there are moments where I am deeply, deeply disappointed. And, yes, there have been moments where I have stopped and said, 'Is this worth it anymore?' And every time I do that, I lick my wounds for a while, sometimes I cry. And then I say, 'Ok, let's fight.'",
-      author: "-Sonia Sotomayor , Assoiciate Justice of the Supreme Court-"
   }
 
 ];

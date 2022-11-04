@@ -230,4 +230,37 @@ footer {
     }
   }
 
+/*Weather App*/
+.container {
+    width: 300px;
+    padding-top: 20px;
+    background-color: rgb(144, 238, 216);
+    margin-bottom: 20px;
+}
+
+.temperature-value p {
+    color: black;
+    font-size: 3em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.temperature-value span {
+    color: black;
+    font-size: 0.5em;
+}
+
+.temperature-description p {
+    color: black;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.location p {
+    color: black;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
 

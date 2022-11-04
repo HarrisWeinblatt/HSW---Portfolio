@@ -1,8 +1,25 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(254, 254, 233);
     opacity: 0.9;
     text-align: center;
+    padding: 0;
+    min-height: 100%;
 }
 
 body footer {
@@ -40,9 +57,11 @@ footer {
 
 /*Quotes*/
 .outer-container {
-    max-width: 90%;
-    display: inline-block;
-    height: 100px;
+    max-width: 80%;
+    height: 120px;
+    display: grid;
+    margin: auto;
+    align-content: center;
 }
 
 #quotes {
@@ -196,9 +215,19 @@ footer {
     }
   }
 
-  @media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
     .navbar .nav-item {
       padding: 0.5em 1em;
     }
   }
+
+  @media only screen and (max-width: 700px) {
+    .outer-container {
+        height: 250px;
+        display: grid;
+        margin: auto;
+        align-content: center;
+    }
+  }
+
 

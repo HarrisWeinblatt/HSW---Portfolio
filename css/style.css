@@ -55,6 +55,20 @@ footer {
     max-width: 100%;
 }
 
+.container-sm {
+    width: 350px;
+    height: 550px;
+    padding-top: 20px;
+    background-color: rgb(144, 238, 216);
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: rgb(237, 181, 233);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
 /*Quotes*/
 .outer-container {
     max-width: 80%;
@@ -266,3 +280,5 @@ a:hover {
     text-align: center;
     font-size: 0.8em;
 }
+
+

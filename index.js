@@ -274,7 +274,7 @@ window.onload = function() {
   document.getElementById("generate").addEventListener('click', generateQuote);
 }
 
-// date counter
+// date counter javascript is in html
 
 
 
@@ -286,5 +286,3 @@ var myInput = document.getElementById('myInput')
 myModal.addEventListener('shown.bs.modal', function () {
   myInput.focus()
 });
-
-

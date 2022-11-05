@@ -283,4 +283,22 @@ a:hover {
     font-size: 0.8em;
 }
 
+/*Tip Calculator*/
+#calculator {
+    width: 300px;
+    height: 400px;
+    padding-top: 20px;
+    background-color: rgb(144, 238, 216);
+}
+
+#calculator h6{
+    margin-top: 10px;
+}
+
+#calculate {
+    background-color: rgb(237, 181, 233);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
 

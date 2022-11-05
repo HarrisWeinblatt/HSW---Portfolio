@@ -372,7 +372,7 @@
 
   </script>
   <h2>Age Calculator</h2>
-  <table width="320px;;" border="0" cellspacing="0" cellpadding="0">
+  <table width="320px" border="0" cellspacing="0" cellpadding="0">
      <tbody>
         <tr>
            <td>
@@ -388,7 +388,7 @@
                     <script type="text/javascript">for(var i=1;i<13;i++)document.write("<option value="+i+">"+mS[i-1]+"</option>");</script>
                  </select>
   
-            <span class="date ">Year</span>&nbsp;<b >:</b>&nbsp;
+            <span class="date "><br>Year</span>&nbsp;<b >:</b>&nbsp;
                  <select name="year" size="1">
                     <script type="text/javascript">for(var k=startyear;k<=endyear;k++)document.write("<option value="+k+">"+k+"</option>");</script>
                  </select>
@@ -396,36 +396,36 @@
   <p style="text-align:center;">
                 <input class="button" name="start" onclick="calage()" value="Calculate" type="button" style="width:100px; margin-top: 10px;">
          </p>        
-                 
-                 <input name="age" value="Result"  style="width:100%;">
-                 <p class="date1">You have been living for:</p>
+         <p class="date1">You have been living for...</p>
+                 <input name="age" value="Result"  style="width:100%; border-radius: 5px; margin-bottom: 15px;">
                  <table class="table-condensed" style="width:100%">
+                  <p class="date1">Since Your Last Birthday...</p>
                     <tbody>
                        <tr>
                           <td class="date-red">In months</b></td>
-                          <td><input name="months" style="width:100%;"></td>
+                          <td><input name="months" style="width:100%; border-radius: 5px;"></td>
                        </tr>
                        <tr>
                           <td class="date-red">In days</td>
-                          <td><input name="daa" style="width:100%;"></td>
+                          <td><input name="daa" style="width:100%; border-radius: 5px;"></td>
                        </tr>
                        <tr>
                           <td class="date-red">In hours</td>
-                          <td><input name="hours" style="width:100%;"></td>
+                          <td><input name="hours" style="width:100%; border-radius: 5px;"></td>
                        </tr>
                        <tr>
                           <td class="date-red">In minutes</td>
-                          <td><input name="min" style="width:100%;"></td>
+                          <td><input name="min" style="width:100%; border-radius: 5px;"></td>
                        </tr>
                         <tr>
                           <td class="date-red">In seconds</td>
-                          <td><input name="sec" style="width:100%;"></td>
+                          <td><input name="sec" style="width:100%; border-radius: 5px;"></td>
                        </tr>
                        <tr>
                           <td colspan="2" class="date-red">Your next birthday will be in:</b></td>
                        </tr>
                        <tr>
-                          <td colspan="2"><input name="nbday" style="width:100%; margin-bottom:10px"></td>
+                          <td colspan="2"><input name="nbday" style="width:100%; margin-bottom:10px; border-radius: 5px;"></td>
                        </tr>
                     </tbody>
                  </table>

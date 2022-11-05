@@ -61,6 +61,8 @@ footer {
     height: 600px;
     padding-top: 20px;
     background-color: rgb(144, 238, 216);
+    text-align: center;
+    align-items: center;
 }
 
 .button {

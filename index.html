@@ -358,11 +358,11 @@
           var secleft = diff / 1000 / 60;
           var hrsleft = (secleft / 60);
           var daysleft = (hrsleft / 24);
-          document.birthday.months.value = monleft + " months since your birth";
-          document.birthday.daa.value = daysleft + " days since your birth";
-          document.birthday.hours.value = hrsleft + " hours since your birth";
-          document.birthday.min.value = secleft + " minutes since your birth";
-          document.birthday.sec.value = (secleft*60) + " seconds since your birth";
+          document.birthday.months.value = monleft + " months";
+          document.birthday.daa.value = daysleft + " days";
+          document.birthday.hours.value = hrsleft + " hours";
+          document.birthday.min.value = secleft + " minutes";
+          document.birthday.sec.value = (secleft*60) + " seconds";
           var as = parseInt(calyear) + dife[0] + 1;
           var diff = Date.UTC(as, calmon, calday, 0, 0, 0) - Date.UTC(curyear, curmon, curday, 0, 0, 0);
           var datee = diff / 1000 / 60 / 60 / 24;
@@ -397,35 +397,36 @@
                 <input class="button" name="start" onclick="calage()" value="Calculate" type="button" style="width:100px; margin-top: 10px;">
          </p>        
          <p class="date1">You have been living for...</p>
-                 <input name="age" value="Result"  style="width:100%; border-radius: 5px; margin-bottom: 15px;">
-                 <table class="table-condensed" style="width:100%">
-                  <p class="date1">Since Your Last Birthday...</p>
+                 <input name="age" value="Result in years, months, and days"  style="width:100%; border-radius: 5px; margin-bottom: 15px; text-align:center;">
+                 <table class="table-condensed" style="width:100%;">
+                  <p class="date1">Since You Were Born...</p>
                     <tbody>
                        <tr>
-                          <td class="date-red">In months</b></td>
-                          <td><input name="months" style="width:100%; border-radius: 5px;"></td>
+                          <td><input name="months" value="in months"style="width:100%; border-radius: 5px; text-align:center;"></td>
+                          <td class="date-red"></b></td>
                        </tr>
                        <tr>
-                          <td class="date-red">In days</td>
-                          <td><input name="daa" style="width:100%; border-radius: 5px;"></td>
+                          <td><input name="daa" value="in days" style="width:100%; text-align:center; border-radius: 5px;"></td>
+                          <td class="date-red"></td>
                        </tr>
                        <tr>
-                          <td class="date-red">In hours</td>
-                          <td><input name="hours" style="width:100%; border-radius: 5px;"></td>
+                          <td><input name="hours" value="in hours"style="width:100%; border-radius: 5px; text-align:center;"></td>
+                          <td class="date-red"></td>
                        </tr>
                        <tr>
-                          <td class="date-red">In minutes</td>
-                          <td><input name="min" style="width:100%; border-radius: 5px;"></td>
+                          <td><input name="min" value="in minutes" style="width:100%; border-radius: 5px; text-align:center;"></td>
+                          <td class="date-red"></td>
                        </tr>
                         <tr>
-                          <td class="date-red">In seconds</td>
-                          <td><input name="sec" style="width:100%; border-radius: 5px;"></td>
+                          
+                          <td><input name="sec" value="in seconds" style="width:100%; border-radius: 5px; margin-bottom: 10px; text-align:center;"></td>
+                          <td class="date-red"></td>
                        </tr>
                        <tr>
-                          <td colspan="2" class="date-red">Your next birthday will be in:</b></td>
+                          <td colspan="2" class="date-red" style="text-align:center;">Your next birthday will be in:</b></td>
                        </tr>
                        <tr>
-                          <td colspan="2"><input name="nbday" style="width:100%; margin-bottom:10px; border-radius: 5px;"></td>
+                          <td colspan="2"><input name="nbday" style="width:100%; margin-bottom:10px; border-radius: 5px; text-align:center"></td>
                        </tr>
                     </tbody>
                  </table>

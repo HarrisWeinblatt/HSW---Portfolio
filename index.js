@@ -1,12 +1,3 @@
-// LightBulb App
-const light = document.querySelector('#bulb');
-
-light.addEventListener('click', function(e){
-
-    e.target.classList.toggle('bulb-on');
-
-})
-
 // api key : 82005d27a116c2880c8f0fcb866998a0
 
 // SELECT ELEMENTS

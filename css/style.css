@@ -295,6 +295,11 @@ a:hover {
     margin-top: 10px;
 }
 
+#calculator input {
+    text-align: center;
+    border-radius: 5px;
+}
+
 #calculate {
     background-color: rgb(237, 181, 233);
     border-radius: 5px;

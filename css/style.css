@@ -56,8 +56,8 @@ footer {
 }
 
 .container-sm {
-    width: 350px;
-    height: 550px;
+    max-width: 350px;
+    max-height: 550px;
     padding-top: 20px;
     background-color: rgb(144, 238, 216);
     margin-bottom: 20px;
@@ -68,6 +68,7 @@ footer {
     border: 2px solid black;
     border-radius: 5px;
 }
+
 
 /*Quotes*/
 .outer-container {

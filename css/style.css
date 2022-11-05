@@ -236,7 +236,8 @@ a:hover {
 
 /*Weather App*/
 .container {
-    width: 300px;
+    width: 400px;
+    height: 300px;
     padding-top: 20px;
     background-color: rgb(144, 238, 216);
     margin-bottom: 20px;
@@ -266,5 +267,26 @@ a:hover {
     font-size: 0.8em;
 }
 
+/*Lightbulb App*/
+.canvas{
+    width: 400px;
+    height: 300px;
+    margin: 0px auto;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(144, 238, 216);
+}
 
+.bulb-off{
+    width: 133px;
+    height: 200px;
+    background: url('/images/lightoff.png') no-repeat;
+    margin: auto;
+}
 
+.bulb-on{
+    width: 133px;
+    height: 200px;
+    background: url('/images/lighton.png') no-repeat;;
+    margin: auto;
+}

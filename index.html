@@ -23,9 +23,14 @@
 <body>
     <nav class="navbar navbar-expand-lg p-1">
         <div class="container-fluid">
+
+<!--Logo-->
           <img src="images/logo.jpg" style="max-height: 60px;">
+
+<!--Clock-->
           <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
 
+<!--NavBar-->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -42,7 +47,7 @@
                       <a class="nav-link" href="#projects">My Work</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#weather">Weather</a>
+                      <a class="nav-link" href="#weather">Apps</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contactme">Contact Me</a>
@@ -53,9 +58,10 @@
         </div>
     </nav>
 
+<!--Date Function-->
     <div class="date">
       <script language="JavaScript">
-      <!--
+   
       var current_date = new Date ( );
       
       var month_names = new Array ( );
@@ -88,10 +94,10 @@
       document.write ( ", " );
       document.write ( " " );
       document.write ( " " + current_date.getFullYear() );
-      // -->
       </script>
     </div>
 
+<!--Carousel Slideshow-->
     <div class="container-fluid mb-3" id="slideshow">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-interval="50">
             <div class="carousel-inner banner_img_size">
@@ -112,6 +118,7 @@
         </div>
     </div>
 
+<!--Quotes-->
     <div class="outer-container" id="jumptoquote">
       <p id="quotes"></p>
       <p id="author"></p>
@@ -120,6 +127,7 @@
     <button id="generate" class="btn">Click For New Quote</button>
     </div>
 
+<!--Who I Am: About Me, Educatiaon, Skills-->
     <div class="row mt-4 ms-1 justify-content-evenly">
         <div class="col-3 rounded-4 border border-2 border-dark">
             <div class="text-center" id="aboutme">
@@ -151,10 +159,10 @@
 
     <div class="container-fluid pt-3">   
         
-      <!--Button Modal-->
+      <!--Button Modal for Resume-->
       <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Click for Resume</button>
                 
-      <!-- Modal -->
+      <!--Modal for Resume-->
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-fullscreen-xl-down align-items: center;">
               <div class="modal-content">
@@ -172,6 +180,7 @@
       </div>
     </div>  
 
+<!--My Work, Projects, Codes, and Websites-->
     <div class="container-fluid">
     <div class="row d-flex justify-content-evenly">
         <h2 class="pt-5 pb fw-bold" id="projects">My Work</h2>
@@ -266,6 +275,9 @@
         </div>
       </div>
 
+
+    <div class="row">
+<!--Weather App-->
       <div class="container rounded-4 border border-2 border-dark">
         <div class="app-title" id="weather">
             <h2><strong>Local Weather</strong></h2>
@@ -281,9 +293,17 @@
                 <p>-</p>
             </div>
         </div>
+      </div>
+<!--LightBulb App-->
+      <div class="canvas rounded-4 border border-2 border-dark">
+          <h3>Turn the light on and off by clicking the bulb!</h3>
+          <div id="bulb" class="bulb-off"></div>
+      </div>
+
     </div>
 
-      <div class="container-fluid" style="max-width: 50%;">
+<!--Contact Form-->
+      <div class="container-fluid mt-5" style="max-width: 50%;">
         <form action="https://formkeep.com/f/54d7c1e707ca" accept-charset="UTF-8" enctype="multipart/form-data" method="POST" target="_blank">
           <h3 style="text-align: center; font-weight: bold" class="pb-1">Contact Me</h3>
       
@@ -319,7 +339,7 @@
         </form>
       </div>
 
-      
+<!--Footer with Linkedin and Github icons-->
     <footer class="text-center text-black mt-3" id="contactme">
         <div>
             <a href="https://github.com/HarrisWeinblatt" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi-github" viewBox="0 0 16 16">

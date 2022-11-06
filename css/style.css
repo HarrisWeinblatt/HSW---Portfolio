@@ -333,4 +333,23 @@ a:hover {
     to { width: 100% }
   }
   
+/* Determine Leap Year */
 
+.Btn {
+    background-color: rgb(237, 181, 233);
+    color: #000;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.year {
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.result {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}

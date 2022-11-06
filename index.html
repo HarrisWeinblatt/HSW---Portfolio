@@ -291,11 +291,26 @@
         </div>
       </div>
 
+<!--Functionn to determine Leap Year--> 
       <div class="container rounded-4 border border-2 border-dark">
-
+        <h2><strong>Determine Leap Years</strong></h2>
+        <h5>Enter year</h5>
+        <input class="year" type="text" />
+        <br>
+        <button class="Btn">Check</button>
+        <div class="result"></div>
+        <script>
+        let resultEle = document.querySelector(".result");
+        let yearEle = document.querySelector(".year");
+        document.querySelector(".Btn").addEventListener("click", () => {
+           if (yearEle.value % 4 == 0) {
+              resultEle.innerHTML = yearEle.value + " is a leap year ";
+           } else resultEle.innerHTML = yearEle.value + " is not a leap year";
+        });
+        </script>
       </div>
-<!--Tip Calculator--> 
 
+<!--Tip Calculator--> 
       <div id="calculator" class="container rounded-4 border border-2 border-dark">
         <h2><strong>Tip Calculator</strong></h2>
         <h6><strong>Bill Amount</strong></h6><input id="bill-amount"></br>

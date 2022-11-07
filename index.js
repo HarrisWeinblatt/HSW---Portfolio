@@ -276,7 +276,27 @@ window.onload = function() {
 
 // javascript for date counter is in html
 
+const jokeEl = document.getElementById('joke')
+const jokeBtn = document.getElementById('jokeBtn')
 
+jokeBtn.addEventListener('click', generateJoke)
+
+generateJoke()
+
+// USING ASYNC/AWAIT
+async function generateJoke() {
+  const config = {
+    headers: {
+      Accept: 'application/json',
+    },
+  }
+
+  const res = await fetch('https://icanhazdadjoke.com', config)
+
+  const data = await res.json()
+
+  jokeEl.innerHTML = data.joke
+}
 // Tip Calulator
 let billAmount = document.getElementById('bill-amount');
 let percentTip = document.getElementById('percentage-tip');

@@ -272,6 +272,14 @@
 <!--Apps-->
 <div class="row">
 
+<!--Jokes-->
+<div class="container rounded-4 border border-2 border-dark">
+  <h3><strong>Don't Laugh Challenge</strong></h3>
+  <p id="joke" class="joke">// Joke goes here</p>
+  <button id="jokeBtn">Get Another Joke</button>
+  
+</div>
+
 <!--Weather App-->  
       <div class="container rounded-4 border border-2 border-dark">
         <div class="app-title" id="weather">
@@ -309,7 +317,10 @@
         });
         </script>
       </div>
+    </div>
 
+
+<div class="row">
 <!--Tip Calculator--> 
       <div id="calculator" class="container rounded-4 border border-2 border-dark">
         <h2><strong>Tip Calculator</strong></h2>
@@ -421,7 +432,7 @@
                  </select>
   
   <p style="text-align:center;">
-                <input class="button" name="start" onclick="calage()" value="Calculate" type="button" style="width:100px; margin-top: 10px;">
+                <input class="button" id="calculate" name="start" onclick="calage()" value="Calculate" type="button" style="width:100px; margin-top: 10px;">
          </p>        
          <p class="date1">You have been living for...</p>
                  <input name="age" value="??? years, months, and days"  style="width:100%; border-radius: 5px; margin-bottom: 15px; text-align:center;">

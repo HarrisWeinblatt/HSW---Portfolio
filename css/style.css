@@ -33,6 +33,7 @@ footer {
     background-color: rgb(144, 238, 216);
 }
 
+/*My name and position on the caroursel*/
 .container-fluid .overlay {
     position: absolute;
     top:5%;

@@ -71,7 +71,7 @@ footer {
 
 /*Age Calculator*/
 .container-sm {
-    width: 335px;
+    width: 300px;
     height: 600px;
     padding-top: 20px;
     background-color: rgb(144, 238, 216);
@@ -397,3 +397,5 @@ a:hover {
     align-items: center;
     justify-content: center;
 }
+
+

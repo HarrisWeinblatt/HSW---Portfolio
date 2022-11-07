@@ -297,6 +297,10 @@ async function generateJoke() {
 
   jokeEl.innerHTML = data.joke
 }
+
+// 
+
+
 // Tip Calulator
 let billAmount = document.getElementById('bill-amount');
 let percentTip = document.getElementById('percentage-tip');
